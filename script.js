@@ -12,6 +12,7 @@ var igual = ''
 function add(valor){
     if (igual == 1) {
         limpar()
+        igual = 0
     }
 
     /* Estrutura para verificar o primeiro valor adicionado */
